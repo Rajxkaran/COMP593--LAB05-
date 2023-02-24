@@ -11,7 +11,7 @@
             "program": "script.py",
             "console": "integratedTerminal",
             "justMyCode": true,
-            "args": ["dog"]
+            "args": ["sport"]
         }
     ]
 }

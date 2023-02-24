@@ -19,7 +19,7 @@ def get_search_term():
         sys.exit(1)
         
 def get_paste_data(joke_list, search_term):
-    title = f'Dad Jokes that conatin the word "{search_term}"'
+    title = f'Dad Jokes that contain the word "{search_term}"'
     divider = '\n' + ('*' * 40) + '\n'
     body_text = divider.join(joke_list)
     return title, body_text
